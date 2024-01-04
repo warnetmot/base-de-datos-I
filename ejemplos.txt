@@ -1,0 +1,60 @@
+`			USFX
+un alumno estudia una carrerqa (1.1)
+en una carera estudian varios alumnos (1.M)   (1.M) estudia 
+
+
+un alumno cursa varias materias  (1.M)
+una materia es cursada por varios alumnos (1.M)  (M.N)cursan 
+
+
+un docente imparte clases a varios alumnos (1.M)
+un alumno pasa clases con varios docentes (1.M) (M.N) pasa
+
+
+un docente imparte varias materias (1.M)
+una materia es impartida por varios doentes (1.M) (M.N) imparten
+
+
+
+			UPDS
+
+un alumno estudia una carrerqa (1.1)
+en una carera estudian varios alumnos (1.M)   (1.M) estudia 
+
+
+un alumno cursa una materia  (1.1)
+una materia es cursada por varios alumnos (1.M)  (1.M)cursan 
+
+
+un docente imparte clases a varios alumnos (1.M)
+un alumno pasa clases con un docente (1.1) (1M.1) pasa
+
+
+un docente imparte varias materias (1.M)
+una materia es impartida por un docente (1.1) (M.1) imparten
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+			
+1) la tienda electro que se dedica a la venta de celulares nesecita una base de datos que almacene los diferentes productos, 
+clientes, proveedores y enpleados
+
+productos
+clientes
+proveedores
+empleados
+
+un proveedor vende varios productos (1.M)
+un producto compran un empleado (M.1) (M.N) COMPRA
+
+un empleado venden varios productos (1.M)
+un producto tiene varios clientes (1.M) (1.M) VARIEDAD
+
+un cliente tiene que escoger un producto (1.1)
+un producto es vendio a un cliente (1.1) (1.1) VENTA
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

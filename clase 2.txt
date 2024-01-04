@@ -1,0 +1,134 @@
+propiedades inlicitas de una BD 
+representa algun aspecto del mindo real o minimundo, las modificaciones del minismiunbo se reflejan
+en la BD 
+
+es una coleccion de datos logicamente coherentes 
+
+se dise;an construye y puebla con datos para un proposito especifico y esta dirigida
+a un grupo de usuaruis 
+
+
+-Una BD tiene una fuente de la que se derivan los datos 
+-tiene cierto grado de interraccion con el mundo real 
+-hay un publico que esta interesado en su contenido 
+
+
+
+
+CONCEPTO DE UNA BASE DE DATOS 
+
+es un onjuento o deposito de datos 
+
+interelacionado y estructurados deacuerdo a un modelo 
+
+capaz de recoger el maximo de contenido sematico 
+
+no deben existir redunbancias logicas 
+
+SGBD 
+
+las defuiciones y descripociones propiedades de los datos deben de ser unicas y estar integradas con los mismos datos 
+
+se deben garantisar la independencia entre datos y tratamientos 
+
+deben soportar multiples usuarios y aplicacines 
+
+la actualisacion y recuperacion 
+
+garantisar la integridad , seguridad y confidencialidad 
+
+
+
+ventajas
+ 
+los dATOS 
+MANEJO de ecocistemas de los datos 
+mejor disponibilidad de los mismos 
+
+
+
+desventajas 
+la implementacion 
+costos de los equipos 
+nesecidad de estandarisaion 
+puestas en marcha larga y dificil 
+rentabilidad a medio plazo 
+
+
+los usuarios 
+personal especialisado 
+desface entre teoria y practica 
+
+ELEMENTOD DE UNA BASE DE DATOS 
+datos 
+integracin y organisacion mediante un esquema logico compratido 
+
+sotfware 
+programas de aplicacion SGBD  gestionar la estructuea y la informacion de la BD 
+
+hardware 
+
+
+
+independiencia de los datos 
+fisicia 
+el almacenamineto fisico de los datos debe ser independuente del dise;o logico de la BD a toodos los niveles 
+esto permite: 
+REPRESENTACION DE CAMPOS 
+ORGANISACION EN REGISTROS 
+ORGANISACION DE LOS ARCHIVIOS 
+
+logica 
+esquema logico general , cvistas de usuario 
+cada aplicacion debe poder organisar los datos segun sus propios esquemas 
+
+
+
+
+arquitectura ANSI/X3/APARC
+nivel de vision 
+nevel conceptual 
+nivel fisico 
+
+
+/*-venytajas del enfioque de BD 
+potecial para imponer normas 
+menor tiempo de creacion de aplicaciones 
+flexibidad 
+disponinibilidad de informacion actualisada 
+economias de escala 
+
+
+
+sistemas de base de datos 
+es una coleccion de datos interelacionadpos y un conjuneot de programan que peromiter a los usuarios tener acceso  
+esos datos y modificarlos 
+definir
+construirs
+manipular 
+
+
+
+modelos de datos 
+problema > adtraccion > implemetnacion
+es una representacion general grafica describe
+
+ayuda a ebtender el contexto y el entornoi de dicho problema 
+representa una heramentos de comunicacion entre los involucrados eb el proyecto 
+asociado con el dise;os de una vase de datos
+
+elementos del modelos de datos
+entidades
+cualquier cosa a partir de la cual se realiza obtencion de datos 
+* cada intanscia debe distingirse de todas las demas 
+* todas las intancias deben tener los mismos atributos
+ 
+atributos 
+es una caracteristica de una entidad un atributo es simiular a un campo en un sistema de archivos
+* precticamenten en cualquier problema o caso de estudio a partir de cual se requiere generar un modelos de datos las entidades siempre estaran ivolucradas entre si 
+* para determinas la forma en la que se relaciona 
+
+realiaciones entre entoidades 
+
+Reglas de negocio 
+son enuncioado breves concisos sin ambiguedades que describen una politica regla. hecho. principui o procedimiento dentro de una compa;ia u prganisacion 
